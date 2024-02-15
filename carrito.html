@@ -22,12 +22,12 @@
 
 
             <nav>
-                <ul>
+                <ul class="menu">
                     <li><button class="boton-barra">Inicio</button></li>
                     <li><button class="boton-barra"><a href="./index.html">Productos</a></button></li>
                     <li><button class="boton-barra">Medios de pago</button></li>
                     <li><button class="boton-barra">Envíos</button></li>
-                    <li><button class="boton-barra active"><i class="bi bi-cart3"></i>Carrito</button></li>
+                    <li><button class="boton-barra active">Carrito<i class="bi bi-cart3 icono"></i></button></li>
 
                 </ul>
 
@@ -42,20 +42,24 @@
 
             <div class="contenedor-carrito">
 
-                <p>No hay productos en el carrito<i class="bi bi-cart-x-fill"></i></p>
 
-                <div class="carrito-productos">
-                    <div class="carrito-producto">
-                        <img src="img/palo.brabo.jpg" alt="">
-                        <div class="carrito-producto-titulo">
+                <p id="carrito-vacio" class="carrito-vacio">No hay productos en el carrito<i
+                        class="bi bi-cart-x-fill icono"></i></p>
+
+
+                <div id="carrito-productos" class="carrito-productos disabled">
+                    <!-- <div class="carrito-producto">
+                        <img class="carrito-producto-imagen" src="img/palo.brabo.jpg" alt=""> -->
+
+                    <!-- <div class="carrito-producto-titulo">
                             <small>Producto</small>
                             <h3>PALO BRABO</h3>
 
-                            <div class="carrito-producto-cantidad">
-                                <small>Cantidad</small>
-                                <p>1</p>
-                            </div>
+                        </div>
 
+                        <div class="carrito-producto-cantidad">
+                            <small>Cantidad</small>
+                            <p>1</p>
                         </div>
 
                         <div class="carrito-producto-precio">
@@ -65,30 +69,57 @@
 
                         <div class="carrito-producto-subtotal">
                             <small>Subtotal</small>
-                            <p>$1000</p>
+                            <p>$300500</p>
                         </div>
 
                         <button class="carrito-producto-eliminar"><i class="bi bi-trash"></i></button>
 
-                    </div>
+                    </div> -->
 
-                    <div class="carrito-opciones">
-
-                        <div class="carrito-vaciar">Vaciar carrito</div>
-
-                        <div class="carrito-comprar">
-
-                            <div class="carrito-comprar-total">
-                                <p>Total:</p>
-                                <p id="total">$1000</p>
-                            </div>
-                            <button>COMPRAR</button>
-
+                    <!-- <div class="carrito-producto">
+                        <img class="carrito-producto-imagen" src="img/canilleras.vlack.jpg" alt="">
+                        <div class="carrito-producto-titulo">
+                            <small>Producto</small>
+                            <h3>CANILLERAS</h3>
 
                         </div>
 
+                        <div class="carrito-producto-cantidad">
+                            <small>Cantidad</small>
+                            <p>1</p>
+                        </div>
 
+                        <div class="carrito-producto-precio">
+                            <small>Precio</small>
+                            <p>$1000</p>
+                        </div>
+
+                        <div class="carrito-producto-subtotal">
+                            <small>Subtotal</small>
+                            <p>$27000</p>
+                        </div>
+
+                        <button class="carrito-producto-eliminar"><i class="bi bi-trash"></i></button> -->
+
+                </div>
+
+                <p id="carrito-comprado" class="disabled">Muchas gracias por tu compra <i class="bi bi-emoji-smile"></i>
+                </p>
+
+
+            </div>
+
+            <div id="carrito-opciones" class="carrito-opciones disabled">
+
+                <button id="carrito-vaciar" class="carrito-vaciar">VACIAR CARRITO</button>
+
+                <div class="carrito-comprar">
+
+                    <div class="carrito-comprar-total">
+                        <p>Total:</p>
+                        <p id="total">$1000</p>
                     </div>
+                    <button id="carrito-comprar" class="carrito-comprar-boton">COMPRAR</button>
 
 
                 </div>
@@ -96,8 +127,8 @@
 
             </div>
 
-
-
+            <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+            <script src="./js/carrito.js"></script>
 </body>
 
 </html>

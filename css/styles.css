@@ -6,13 +6,10 @@
     color: rgb(226, 138, 6)
 }
 
-.wrapper {
-    margin: 0 auto;
-    max-width: 1500px;
-}
+
 
 body {
-    height: 80 vh;
+    height: 80%;
 }
 
 h1,
@@ -38,13 +35,10 @@ a {
     text-decoration: none;
 }
 
-button {
-    background-color: none;
-    border: none;
-}
-
 
 .wrapper {
+    margin: 0 auto;
+    max-width: 1500px;
     display: grid;
     grid-template-columns: 1fr 4fr;
     background-color: black;
@@ -52,7 +46,7 @@ button {
 
 aside {
     padding: 2rem;
-    height: 100vh;
+    height: 100%;
     position: sticky;
     top: 0;
     display: flex;
@@ -129,7 +123,7 @@ main {
     ;
     background-color: rgb(226, 138, 6);
     padding: 0.5rem;
-    margin-top: 0.5rem;
+    margin-top: 1rem;
     cursor: pointer;
 }
 
@@ -137,3 +131,107 @@ main {
     background-color: black;
     color: rgb(226, 138, 6);
 }
+
+.active {
+    color: black;
+    background-color: rgb(226, 138, 6);
+    border-radius: 1rem;
+}
+
+.boton-barra:hover {
+    border: 2px solid rgb(226, 138, 6);
+    border-radius: 1rem;
+}
+
+.icono {
+    padding: 0.5rem;
+}
+
+.active .icono {
+color: black;
+}
+
+
+/* -------------------CARRITO VACIO------------------ */
+
+.carrito-vacio {
+
+    margin-top: 2rem;
+}
+
+.contenedor-carrito {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.carrito-productos {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.carrito-producto {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid rgb(226, 138, 6);
+    border-radius: 2rem;
+    padding: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    
+}
+
+.carrito-producto-imagen {
+    width: 4rem;
+    border-radius: 1rem;
+}
+
+.carrito-producto small {
+    font-size: 0.75rem;
+}
+
+
+.carrito-producto-eliminar {
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.carrito-opciones {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.carrito-vaciar,
+.carrito-comprar-boton {
+   
+    background-color: transparent;
+    border: solid 2px rgb(226, 138, 6);
+    border-radius: 1rem;
+    padding: 1rem;
+    cursor: pointer;
+    
+}
+
+.carrito-comprar {
+    display: flex;
+}
+
+.carrito-comprar-total {
+    display: flex;
+    border: solid 2px rgb(226, 138, 6);
+    border-radius: 1rem;
+    padding: 1rem;
+    margin-right: 2rem;
+    gap: 1rem;
+}
+
+.disabled {
+    display: none;
+}
+
+

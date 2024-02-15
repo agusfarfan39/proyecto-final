@@ -1,0 +1,96 @@
+ [
+    {
+        "id": "palo-brabo",
+        "titulo": "Palo brabo 80% carbono",
+        "imagen": "./img/palo.brabo.jpg",
+        "precio": "300500"
+
+    },
+    {
+        "id": "palo-grays",
+        "titulo": "Palo grays 80% carbono",
+        "imagen": "./img/palo.grays.azul.jpg",
+        "precio": "410300"
+
+    },
+
+    {
+        "id": "palo-grays-naranja",
+        "titulo": "Palo grays 90% carbono",
+        "imagen": "./img/palo.grays.jpg",
+        "precio": "460600"
+
+    },
+
+    {
+        "id": "botines-adidas",
+        "titulo": "Botines adidas divox",
+        "imagen": "./img/botines.adidas.jpg",
+        "precio": "195000"
+
+    },
+
+    {
+        "id": "botines-adidas-negros",
+        "titulo": "Botines adias",
+        "imagen": "./img/botines.negros.jpg",
+        "precio": "105900"
+
+    },
+
+    {
+        "id": "botines-vlack",
+        "titulo": "Botines vlack-aqua",
+        "imagen": "./img/botines.vlack.jpg",
+        "precio": "105900"
+
+    },
+
+    {
+        "id": "casco-obo",
+        "titulo": "Casco obo robo",
+        "imagen": "./img/casco.obo.jpg",
+        "precio": "145000"
+
+    },
+
+    {
+        "id": "kickers-obo",
+        "titulo": "Kickers obo hi-rebound",
+        "imagen": "./img/kickers.obo.jpg",
+        "precio": "100000"
+
+    },
+
+    {
+        "id": "legguards",
+        "titulo": "Legguards obo",
+        "imagen": "./img/legguards.obo.jpg",
+        "precio": "250000"
+
+    },
+
+    {
+        "id": "bolso-obo",
+        "titulo": "Bolso mochila obo",
+        "imagen": "./img/bolso.obo.jpg",
+        "precio": "270000"
+
+    },
+
+    {
+        "id": "bolso-osaka",
+        "titulo": "Funda osaka xl",
+        "imagen": "./img/bolso.osaka.jpg",
+        "precio": "240000"
+
+    },
+
+    {
+        "id": "canilleras",
+        "titulo": "Canilleras vlack",
+        "imagen": "./img/canilleras.vlack.jpg",
+        "precio": "300500"
+    }
+
+]
